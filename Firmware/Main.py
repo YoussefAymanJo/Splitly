@@ -10,6 +10,7 @@ from kmk.modules.modtap import ModTap
 from kmk.extensions.display import Display, TextEntry, ImageEntry
 from kmk.extensions.display.ssd1306 import SSD1306
 from kmk.modules.split import Split , SplitSide
+from kmk.hid import HIDModes
 
 
 keyboard = KMKKeynboard()
@@ -18,7 +19,7 @@ keyboard.row_pins(board.GP1,board.GP2,board.GP4,board.GP6)
 keyboard.diode_orientation = DioderOrientation.COL2ROW
 keyboard.modules.append(Layers())
 keyboard.modules.append(ModTap())
-_main, f_st,S_cd,l_st = range(4)
+_main, f_st,S_cd,l_st = 0,1,2,3
 
 Clt_ESCE = KC.MT(KC.ESC.KC.LCTL)
 ent_super = KC.MT(KC.ENTER, KC.LGUI)
@@ -31,7 +32,7 @@ display = Display(
     entries = 
         [
         TextEntry(text='@Youssef', x = 128,y=0,x_anchor = 'R',y_anchor = 'T'),
-        ImageEntry(image = '',x=0,y=0),
+        ImageEntry(image = "D:\Splitly\Splitly\Firmware\vert_cat.bmp",x=0,y=0),
         ],
         height = 64,
         of_time = 1200,
