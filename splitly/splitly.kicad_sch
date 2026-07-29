@@ -1492,7 +1492,7 @@
 		)
 		(uuid "42d19436-07b2-4c86-9cf2-f364cca4ab3b")
 	)
-	(text "Right_Keboard Matrix"
+	(text "Left_Keboard Matrix"
 		(exclude_from_sim no)
 		(at 44.704 20.32 0)
 		(effects
