@@ -54,7 +54,7 @@ Secondly,i worked on main enclosure.firtly, i extruded it based on plate sketch 
 After that,i checked heatinsert dimesnions ,and aligment of enlcosure and pcb heigth in it.then extrude circle with diamter of heatinsert.in which srews will be in it and hold pcb at specific heigth, preventing PCB pins attach bottom layer.
 <img width="559" height="412" alt="Screenshot 2026-07-29 143924" src="https://github.com/user-attachments/assets/f3db7c99-acf3-4c4d-bd68-b04e62405028" />
 <img width="1216" height="718" alt="Screenshot 2026-07-29 144237" src="https://github.com/user-attachments/assets/5fa9a4af-d38d-41e8-8de1-a0d5b89ebb61" />
-After that,i assembled all togehter and check aligment.then i started adding keycapd for switches,after that i started adding srews and heat insert and checking aligment by section analsis form top and rigth,then added battery.then,i sketched nice nano usb opening ,then cut it from plate and enclosure.
+After that,i assembled all togehter and check aligment.then i started adding keycapd for switches,after that i started adding srews and heat insert and checking aligment by section analsis form top and rigth.then,i sketched nice nano usb opening ,then cut it from plate and enclosure.
 After that,i worked on top cover,extrude it with same plate dxf file.and adding covering rectangle for nicnano.then i started cut form the back mounting holes for heatinsert that connected srews of enclosure.then,i assembled all together ,and adding enclosure srews and heatinsert.
 then,sign my name on top cover and exlode text,also signed arcana name on plate.
 <img width="752" height="408" alt="Screenshot 2026-07-29 144200" src="https://github.com/user-attachments/assets/19724778-6e2c-4df4-8fe5-7f48612aea74" />
@@ -93,6 +93,35 @@ https://lapse.hackclub.com/timelapse/MOm_24O0OcwB
 created at:2026-7-18
 
 ### Content 
+During this session ,i worked mainly of right part 3d models and assembly.firstly,i searched for suitable battery and found one,the i extrude its dimesnions for assemly,and sign it power on it.then,i uploaded pcb 3d model to fusion,then started project pcb outline , switches ,MCU and .after that, i uploaded projected dxf and worked on plate.Firslty,i routed plate outline leaving space between pcb and plate sketch.after that, i offest it and adding filleset on edges.after that,i checked plate aligment with pcb using section analaysis. Then,i started adding switches opening based on sketch.then check switches aligment with openig and hanged on its edges.after that,i extruded plate by 3mm,and added moutning holes at edges to,where m3 screws will attached to enclosure.finally,cutting rectangle area in plate for nice nano a.
+<img width="1123" height="536" alt="Screenshot 2026-07-29 180207" src="https://github.com/user-attachments/assets/ec3a33c2-5d51-45a6-8bc4-bc305418d07e" />
+
+<img width="923" height="493" alt="Screenshot 2026-07-29 180138" src="https://github.com/user-attachments/assets/6f431cea-880f-46c9-b2dc-fbbf0717b06a" />
+
+Secondly,i worked on main enclosure.firtly, i extruded it based on plate sketch dxf file,then extrude the bottom layer by 2 mmm, then i checked it height with pcb using section analysis,and adjust its height.after that, i cut 5.5 circle from the bottom mounting holes,where m3 head will be in ,with heigth 3mm.
+After that,i checked heatinsert dimesnions ,and aligment of enlcosure and pcb heigth in it.then extrude circle with diamter of heatinsert.in which srews will be in it and hold pcb at specific heigth, preventing PCB pins attach bottom layer.
+<img width="1192" height="696" alt="Screenshot 2026-07-29 180126" src="https://github.com/user-attachments/assets/c945ea31-2a67-4dfa-9272-c10d5aacbd31" />
+
+After that,i sketched nice nano usb opening ,then cut it from plate and enclosure,then i assembled all togehter and check aligment.then i started adding keycaps for switches,after that i started adding srews and heat insert and checking aligment by section analsis form top and rigth.then adding enclosure srews and heatinsert.
+After that,i worked on top cover,extrude it with same plate dxf file.and adding covering rectangle for nicnano.then i started cut form the back mounting holes for heatinsert that connected srews of the enclosure.then,i assembled all together ,then i assembled battery in space part between jst and nicnano and try to adjust it location.then i assembled it ,then adjust ot top cover againg to cover all the battery and pico without intersect.
+
+then,i  searched for hackclub stickers ,and dowload one,the convert it to svg.after that ,i uploaded it to top cover,then extrude it by 0.5mm.after that,i rendered it with same colours in the image.then i signed my name on plate and explode text and offest charcters,then extrude it by 0.5 and offset by 2.5mm ,then i renders them with white and blue.
+<img width="989" height="559" alt="Screenshot 2026-07-29 180152" src="https://github.com/user-attachments/assets/ffd63e3b-1ec2-47c0-a9d2-9a373807fb6f" />
+
+Finally,i rendered full right assembly , with black ,white and blue.
+<img width="912" height="520" alt="Screenshot 2026-07-29 180047" src="https://github.com/user-attachments/assets/0170ea27-df62-4e0d-9be0-daae1f054023" />
+
+after that,i edit of left part,rewrite singapore arcana pharse ,and offest characters,then exturde them,and also signed my name on top cover and extrude it .then i redered text with white and red ,and the keyboard with same appeareance of right part.
+<img width="727" height="558" alt="Screenshot 2026-07-29 175948" src="https://github.com/user-attachments/assets/d4770f3a-68e7-40c7-9e0f-fc3ddced6945" />
+
+### Recording (4 hour & 29 min) :
+
+https://lapse.hackclub.com/timelapse/TiGkd2mVcwAl
+
+## Entry 6
+created at:2026-7-18
+
+### Content 
 During this session,  I worked manily on main keyboard firmware,i used kmk python version,and i will add more update on code during buidling and test project.
 Firstly, I created the main file for the left part. then starting intializing and importing libraries, and import library for displa, HID, and kmk keyboard libraries.
 <img width="727" height="302" alt="Screenshot 2026-07-29 154041" src="https://github.com/user-attachments/assets/61b44321-da27-4399-8ce4-0b687085df6d" />
@@ -120,7 +149,7 @@ Finally, i initalize in it with a wireless connection and define it displaying n
 
 ### Time (1 hour & 36 min) :
 
-## Entry 6
+## Entry 7
 created at:2026-7-29
 
 ### Content 
@@ -137,4 +166,5 @@ After that, i continued routing another parts,and flibbed rgb leds to back layer
 ### Recording (1 hour & 25 min) :
 
 https://lapse.hackclub.com/timelapse/xZpGC4tF1jRX
+
 
