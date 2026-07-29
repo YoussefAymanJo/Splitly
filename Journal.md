@@ -20,3 +20,23 @@ Finally,i searched for numpad and mcu i will use (pico rp 2040) ,then i added it
 
 ### Recording (44 min) :
 https://lapse.hackclub.com/timelapse/c5cdFFcw_wo8
+
+
+## Entry 2
+created at:2026-7-15
+
+### Content 
+During this session ,i worked mainly of left part schematic & PCB.firstly,First, I added and organized a switch from Scottkeebs' library based on my keyboard layout. Then I started connecting the switches in rows and columns , forming a keyboard matrix.
+After that,i add nice nano ,i started connecting columns & rows of matrix to it.and added rectangles to each part such as matrix and nicnano,adding some organizing in schematic.then i added oled screen ,and connect it to nice nano.then assigned footprint for each componets.
+<img width="1337" height="803" alt="Screenshot 2026-07-29 140726" src="https://github.com/user-attachments/assets/077cc1d9-4bd6-4cc9-8746-5deab8ac0abb" />
+
+After that,i worked on pcb,i uploaded left part json file,and upload it to keyboard library on kicad to organize layout.but it lack ,as switched names were missing.then i cotinued adding 3d model for oled and nice nano.
+After that,while i routing i found sw order was wrong switches coming another in same row.then i started edit on their name to be accurate order.And started routing sws and align diodes with their switches.then i started routing matrix and oled to nice nano.
+<img width="873" height="590" alt="Screenshot 2026-07-29 140454" src="https://github.com/user-attachments/assets/5cddd3eb-205e-44a8-9eef-79895fb6da66" />
+After , that i added mounting holes for m3 screws,to set pcb on enclosure.after that,i reroute pcb edge cuts lines.
+Finally,i added filled zones on top for Vcc and lower for GND.
+<img width="1148" height="776" alt="Screenshot 2026-07-29 140504" src="https://github.com/user-attachments/assets/43bddc5e-bfc3-4fbd-8032-6eaf35d77446" />
+
+### Recording (2 hour & 2 min) :
+
+https://lapse.hackclub.com/timelapse/jyOiTPzKX9hP
