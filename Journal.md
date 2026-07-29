@@ -1,6 +1,7 @@
 author: Youssef Ayman Mohamed
 
-description: 
+description: corne hybrid wireless keyboard based .As it consists of a left part keyboard connected to pc wired ,and right part keyboard powered by a rechargeable Battery which can operate up to week and connected to left part via bluetooth.And operated by nice Nano and CAT display. And a numpad with RGB colours, connected wired to pc and powered by pico rp2040 .
+
  
 created_at: "2026-07-15"
 
