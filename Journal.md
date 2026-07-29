@@ -54,7 +54,7 @@ Secondly,i worked on main enclosure.firtly, i extruded it based on plate sketch 
 After that,i checked heatinsert dimesnions ,and aligment of enlcosure and pcb heigth in it.then extrude circle with diamter of heatinsert.in which srews will be in it and hold pcb at specific heigth, preventing PCB pins attach bottom layer.
 <img width="559" height="412" alt="Screenshot 2026-07-29 143924" src="https://github.com/user-attachments/assets/f3db7c99-acf3-4c4d-bd68-b04e62405028" />
 <img width="1216" height="718" alt="Screenshot 2026-07-29 144237" src="https://github.com/user-attachments/assets/5fa9a4af-d38d-41e8-8de1-a0d5b89ebb61" />
-After that,i assembled all togehter and check aligment.then i started adding keycapd for switches,after that i started adding srews and heat insert and checking aligment by section analsis form top and rigth.then,i sketched nice nano usb opening ,then cut it from plate and enclosure.
+After that,i assembled all togehter and check aligment.then i started adding keycapd for switches,after that i started adding srews and heat insert and checking aligment by section analsis form top and rigth,then added battery.then,i sketched nice nano usb opening ,then cut it from plate and enclosure.
 After that,i worked on top cover,extrude it with same plate dxf file.and adding covering rectangle for nicnano.then i started cut form the back mounting holes for heatinsert that connected srews of enclosure.then,i assembled all together ,and adding enclosure srews and heatinsert.
 then,sign my name on top cover and exlode text,also signed arcana name on plate.
 <img width="752" height="408" alt="Screenshot 2026-07-29 144200" src="https://github.com/user-attachments/assets/19724778-6e2c-4df4-8fe5-7f48612aea74" />
@@ -118,6 +118,23 @@ Then, I defined my keymap, with 4 layers, first one for alphabetical and the  ot
 Finally, i initalize in it with a wireless connection and define it displaying name.
 <img width="827" height="163" alt="Screenshot 2026-07-29 154240" src="https://github.com/user-attachments/assets/755b2355-fb14-4af2-ae07-87ea6e48933b" />
 
-### Time (1 hour & 30 min) :
+### Time (1 hour & 36 min) :
 
+## Entry 6
+created at:2026-7-29
+
+### Content 
+During this session,i worked mainly on numpad schematic & PCB, firstly,i started adding switches and order them into matrix based on numpad layout.then,i added diodes and route columns and rows together.then i added pico symbol from scotto library, then i added 2 ec11 switch rotary encoder,and connect their switch pins  to matrix on  row 1
+after that,i added row and columns flags.
+<img width="479" height="446" alt="Screenshot 2026-07-29 165135" src="https://github.com/user-attachments/assets/cd03cdd2-d604-480a-ad41-561442eae540" />
+Then, i added oled 128*64 and added it pins flags,then i added 2 rgb ws8b128 leds and define their pins flags.finally,i routed all flags in pico.And add organizing rectangles to each part such as pico pinout.then,i assign footprint to components, and adding mouting holes for m3 screws.
+<img width="1128" height="774" alt="Screenshot 2026-07-29 165054" src="https://github.com/user-attachments/assets/1498c56c-3796-4a9b-be68-da5148d16547" />
+Secondly,i update pcb , and upload json file to keyboard library to organize switches.but it found issues in organize encoders in matrix,so i did it manually.Then, i found some switches order were wrong, so i redit their names.then,i started routing keyboard matrix.then, i added encoders ,oled and pico 3d models.
+After that, i continued routing another parts,and flibbed rgb leds to back layer.,then adding filling zone on top layer for vcc and on on lower for GND.finally,i worked on solvind appeared DRC errors ,then sign my name on PCB,then export pcb step file and gerbers.
+<img width="903" height="800" alt="Screenshot 2026-07-29 165110" src="https://github.com/user-attachments/assets/11d63524-538d-473b-a5eb-6593346e4ae2" />
+<img width="907" height="884" alt="Screenshot 2026-07-29 165123" src="https://github.com/user-attachments/assets/5abae53e-5a2f-40de-a025-49a203a41238" />
+
+### Recording (1 hour & 25 min) :
+
+https://lapse.hackclub.com/timelapse/xZpGC4tF1jRX
 
