@@ -88,3 +88,36 @@ Finally,i added filled zones on top for Vcc and lower for GND.
 
 https://lapse.hackclub.com/timelapse/1gOH3Y6zuYtc
 https://lapse.hackclub.com/timelapse/MOm_24O0OcwB
+
+## Entry 5
+created at:2026-7-18
+
+### Content 
+During this session,  I worked manily on main keyboard firmware,i used kmk python version,and i will add more update on code during buidling and test project.
+Firstly, I created the main file for the left part. then starting intializing and importing libraries, and import library for displa, HID, and kmk keyboard libraries.
+<img width="727" height="302" alt="Screenshot 2026-07-29 154041" src="https://github.com/user-attachments/assets/61b44321-da27-4399-8ce4-0b687085df6d" />
+
+Then, I started defining the keyboard  matrix GPIO pins in the MCU.then making layers and modtap to customize more functions in the same switch.
+Then, I defined my keymap, by 4 layers, the first one for alphabetical and the other  layers for other full keyboard switches such as Fn switches.
+<img width="788" height="322" alt="Screenshot 2026-07-29 154053" src="https://github.com/user-attachments/assets/cae04295-95b7-4322-808b-f6d682e63496" />
+
+<img width="688" height="729" alt="Screenshot 2026-07-29 154108" src="https://github.com/user-attachments/assets/1d3d8878-561e-4a22-b80c-4d4c256a348a" />
+
+Secondly,i iniatize display screen ,then define it pins,after that , i make it show my name on the top and cat image,then i set it properties from heigth ,brigthness and increase brigtness by 0.2 for 500 ms.
+After that, I initialize ae wireless HID connection,where the right part will be connected to it.
+<img width="780" height="525" alt="Screenshot 2026-07-29 154101" src="https://github.com/user-attachments/assets/1d631294-dcba-4a4f-beba-4e37c29b1735" />
+
+In the second file(right.py) for the right part, then starting intializing and importing libraries, and import library for HID and kmk keyboard libraries.
+
+<img width="487" height="236" alt="Screenshot 2026-07-29 154227" src="https://github.com/user-attachments/assets/155c81a3-5049-47e7-8cbd-aa837a114a71" />
+
+Then, I started define keyboard  matrix GPIO pins inthe  MCU.then making layers and modtap to customize more functions in same switch.
+Then, I defined my keymap, with 4 layers, first one for alphabetical and the  other  layers for other full keyboard switches such as Fn switches.
+<img width="753" height="808" alt="Screenshot 2026-07-29 154236" src="https://github.com/user-attachments/assets/4fdc71b9-7037-48cd-a0d6-bf6e937f79eb" />
+
+Finally, i initalize in it with a wireless connection and define it displaying name.
+<img width="827" height="163" alt="Screenshot 2026-07-29 154240" src="https://github.com/user-attachments/assets/755b2355-fb14-4af2-ae07-87ea6e48933b" />
+
+### Time (1 hour & 30 min) :
+
+
