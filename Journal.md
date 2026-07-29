@@ -67,3 +67,24 @@ Finally,i worked on render it,trying different colours,and choosed black ,white 
 
 https://lapse.hackclub.com/timelapse/jyOiTPzKX9hP
 
+## Entry 4
+created at:2026-7-17
+
+### Content 
+
+During this session ,i worked mainly of right part schematic & PCB.firstly,i sketched process diamgram of keyboard connection,and the type of connection to each part.
+<img width="1281" height="830" alt="Screenshot 2026-07-29 151332" src="https://github.com/user-attachments/assets/19716877-5b8d-4f7d-9a7b-de7a7f3647f2" />
+
+then, I added and organized a switch from Scottkeebs' library based on my keyboard layout. Then I started connecting the switches in rows and columns , forming a keyboard matrix.After that,i add nice nano ,i started connecting columns & rows of matrix to it.and added rectangles to each part such as matrix and nicnano,adding some organizing in schematic.then i searched of slide sw name on kicad,then starting adding power managemnet,adding switches,and jst pin header that connected to battery,then route jst with switch and nicenano.then assigned footprint for each component.
+<img width="855" height="794" alt="Screenshot 2026-07-29 151346" src="https://github.com/user-attachments/assets/38187dd4-99aa-4e4b-ba44-7ef61f93aaea" />
+<img width="322" height="305" alt="Screenshot 2026-07-29 151413" src="https://github.com/user-attachments/assets/9c786b36-e994-424c-8d22-6c2601127e29" />
+
+After that,i worked on pcb,i uploaded rigth part json file,and upload it to keyboard library on kicad to organize layout.then i cotinued adding 3d model for nice nano.After that,while i routing i found sw order was wrong switches coming another in same row.then i started edit on their name to be accurate order.After , tt i added mounting holes for m3 screws,to set the PCB on enclosure then, i route pcb edge cuts lines. and adding fillset ant corners,And started routing sws and align diodes with their switches.then i started routing matrix  to nice nano.then,i adjust jst pin header location,to be engouh space for battery. After , tt iha added mounting holes for m3 screws,to set the PCB on enclosure.After that, i route pcb edge cuts lines.
+Finally,i added filled zones on top for Vcc and lower for GND.
+<img width="1116" height="634" alt="Screenshot 2026-07-29 151357" src="https://github.com/user-attachments/assets/59047130-e254-449d-b481-5df54d6ec16b" />
+<img width="998" height="648" alt="Screenshot 2026-07-29 151404" src="https://github.com/user-attachments/assets/074e5730-db0d-45c1-a5c2-37306b28ac2a" />
+
+### Recording (2 hour & 16 min) :
+
+https://lapse.hackclub.com/timelapse/1gOH3Y6zuYtc
+https://lapse.hackclub.com/timelapse/MOm_24O0OcwB
