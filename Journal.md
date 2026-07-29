@@ -167,4 +167,33 @@ After that, i continued routing another parts,and flibbed rgb leds to back layer
 
 https://lapse.hackclub.com/timelapse/xZpGC4tF1jRX
 
+## Entry 8
+created at:2026-7-29
+
+### Content 
+During this session,i worked on numpad enlosure and redereing.
+
+### Recording (2 hour & 38 min) :
+
+https://lapse.hackclub.com/timelapse/aSH0zesMmBYj
+https://lapse.hackclub.com/timelapse/BIEeWwLMjhyU
+
+## Entry 9
+created at:2026-7-29
+
+### Content 
+during this session,i worked mainly,on numpad code and  BOM file.  i used kmk python version,and i will add more update on code during buidling and test project.I created the pad file for the  numpad part. then starting intializing and importing rgb libraries, and kmk keyboard libraries..Then, I started defining the keyboard  matrix GPIO pins in the MCU.Then, I defined my keymap, by 1 layers.
+then i defined encoders pins and define their function as control volume and cotrast.
+
+<img width="896" height="830" alt="Screenshot 2026-07-29 184534" src="https://github.com/user-attachments/assets/31cd0745-4823-4874-a0dc-2d414dc8d938" />
+
+then, i worked on BOM,firstly,i edit on pad schematic,as  row 3 was connected to gnd,so i changed it,then udpate gerbers.
+After that,i started uplaod pcb gerbers files and add their price on BOM,the upload 3d models.Then i searched for MCU and oled in EGypt.then Mx switches and keycaps i found them on alipay ant temue.finally,i searched for screws and heatinsert.
+<img width="1893" height="526" alt="Screenshot 2026-07-29 185849" src="https://github.com/user-attachments/assets/55faae88-f0df-49e7-8c7b-5486867b1d6c" />
+
+### Time (20 min ) code 
+
+### Recording (20 min ) :
+https://lapse.hackclub.com/timelapse/dg1qAvqC9TMs
+
 
