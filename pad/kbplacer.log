@@ -1,0 +1,132 @@
+INFO: kbplacer_plugin_action.py:73: Plugin version: 0.16
+INFO: kbplacer_plugin_action.py:74: Python version: '3.11.5 (main, Nov  6 2025, 07:48:09) [MSC v.1944 64 bit (AMD64)]'
+INFO: kbplacer_plugin_action.py:75: KiCad version: 9.0.7 with 4.2.2 msw (phoenix) wxWidgets 3.2.8
+INFO: kbplacer_dialog.py:695: Language: en
+INFO: kbplacer_plugin_action.py:83: GUI state: {"layout_path": "C:\\Users\\LOQ\\Downloads\\keyboard-layout.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": 1}, "enable_diode_placement": true, "route_switches_with_diodes": false, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 4.0, "orientation": 90.0, "side": "Back"}, "template_path": "", "start_index": -1}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": -1}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0, "layout_offset": null}
+DEBUG: key_placer.py:143: Switches by nets: defaultdict(<class 'list'>, {frozenset({'Col4', 'Row5'}): ['SW15'], frozenset({'Col2', 'Row6'}): ['SW17'], frozenset({'Col1', 'Row6'}): ['SW16'], frozenset({'Row5', 'Col3'}): ['SW14'], frozenset({'Col2', 'Row5'}): ['SW13'], frozenset({'Col1', 'Row5'}): ['SW12'], frozenset({'Row4', 'Col3'}): ['SW11'], frozenset({'Col4', 'Row4'}): ['SW8'], frozenset({'Col2', 'Row4'}): ['SW10'], frozenset({'Col1', 'Row4'}): ['SW9'], frozenset({'Row3', 'Col3'}): ['SW7'], frozenset({'Col2', 'Row3'}): ['SW6'], frozenset({'Col1', 'Row3'}): ['SW5'], frozenset({'Col4', 'Row2'}): ['SW4'], frozenset({'Row2', 'Col3'}): ['SW3'], frozenset({'Col2', 'Row2'}): ['SW2'], frozenset({'Col1', 'Row2'}): ['SW1']})
+DEBUG: key_placer.py:147: Diodes by switch: {'SW15': ['D16'], 'SW14': ['D17'], 'SW17': ['D15'], 'SW16': ['D14'], 'SW13': ['D13'], 'SW12': ['D12'], 'SW9': ['D11'], 'SW10': ['D10'], 'SW11': ['D9'], 'SW8': ['D8'], 'SW7': ['D7'], 'SW6': ['D6'], 'SW5': ['D5'], 'SW4': ['D4'], 'SW3': ['D3'], 'SW2': ['D2'], 'SW1': ['D1']}
+INFO: kle_serial.py:1031: User layout: [['Num Lock', '/', '*', '-'], ['7\nHome', '8\n↑', '9\nPgUp', {'h': 2}, '+'], ['4\n←', '5', '6\n→'], ['1\nEnd', '2\n↓', '3\nPgDn', {'h': 2}, 'Enter'], [{'w': 2}, '0\nIns', '.\nDel']]
+DEBUG: key_placer.py:755: Using key 1U distance: (19.05, 19.05) mm
+DEBUG: key_placer.py:773: Layout offset: (28575000, 28575000)
+DEBUG: kle_serial.py:1125: Layout with: x_ortholinear_keys=17, y_ortholinear_keys=17, rotated_keys=0, encoders=0, iso_enters=0 and unrecognized_shape_keys=0
+DEBUG: kle_serial.py:1150: Layout tagged: [<KeyboardTag.ORTHOLINEAR: 1>]
+DEBUG: board_modifier.py:119: Setting SW1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:119: Setting SW2 footprint position: (57150000, 38100000)
+DEBUG: board_modifier.py:119: Setting SW3 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:119: Setting SW4 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:119: Setting SW5 footprint position: (38100000, 57150000)
+DEBUG: board_modifier.py:119: Setting SW6 footprint position: (57150000, 57150000)
+DEBUG: board_modifier.py:119: Setting SW7 footprint position: (76200000, 57150000)
+DEBUG: board_modifier.py:119: Setting SW8 footprint position: (95250000, 66675000)
+DEBUG: board_modifier.py:119: Setting SW9 footprint position: (38100000, 76200000)
+DEBUG: board_modifier.py:119: Setting SW10 footprint position: (57150000, 76200000)
+DEBUG: board_modifier.py:119: Setting SW11 footprint position: (76200000, 76200000)
+DEBUG: board_modifier.py:119: Setting SW12 footprint position: (38100000, 95250000)
+DEBUG: board_modifier.py:119: Setting SW13 footprint position: (57150000, 95250000)
+DEBUG: board_modifier.py:119: Setting SW14 footprint position: (76200000, 95250000)
+DEBUG: board_modifier.py:119: Setting SW15 footprint position: (95250000, 104775000)
+DEBUG: board_modifier.py:119: Setting SW16 footprint position: (47625000, 114300000)
+DEBUG: board_modifier.py:119: Setting SW17 footprint position: (76200000, 114300000)
+INFO: key_placer.py:1173: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.DEFAULT: 'Default'>, position=ElementPosition(x=5.08, y=4.0, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='', start_index=-1)]
+DEBUG: board_modifier.py:132: Getting SW1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:119: Setting D1 footprint position: (43180000, 42100000)
+DEBUG: board_modifier.py:132: Getting SW2 footprint position: (57150000, 38100000)
+DEBUG: board_modifier.py:119: Setting D2 footprint position: (62230000, 42100000)
+DEBUG: board_modifier.py:132: Getting SW3 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:119: Setting D3 footprint position: (81280000, 42100000)
+DEBUG: board_modifier.py:132: Getting SW4 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:119: Setting D4 footprint position: (100330000, 42100000)
+DEBUG: board_modifier.py:132: Getting SW5 footprint position: (38100000, 57150000)
+DEBUG: board_modifier.py:119: Setting D5 footprint position: (43180000, 61150000)
+DEBUG: board_modifier.py:132: Getting SW6 footprint position: (57150000, 57150000)
+DEBUG: board_modifier.py:119: Setting D6 footprint position: (62230000, 61150000)
+DEBUG: board_modifier.py:132: Getting SW7 footprint position: (76200000, 57150000)
+DEBUG: board_modifier.py:119: Setting D7 footprint position: (81280000, 61150000)
+DEBUG: board_modifier.py:132: Getting SW8 footprint position: (95250000, 66675000)
+DEBUG: board_modifier.py:119: Setting D8 footprint position: (100330000, 70675000)
+DEBUG: board_modifier.py:132: Getting SW9 footprint position: (38100000, 76200000)
+DEBUG: board_modifier.py:119: Setting D11 footprint position: (43180000, 80200000)
+DEBUG: board_modifier.py:132: Getting SW10 footprint position: (57150000, 76200000)
+DEBUG: board_modifier.py:119: Setting D10 footprint position: (62230000, 80200000)
+DEBUG: board_modifier.py:132: Getting SW11 footprint position: (76200000, 76200000)
+DEBUG: board_modifier.py:119: Setting D9 footprint position: (81280000, 80200000)
+DEBUG: board_modifier.py:132: Getting SW12 footprint position: (38100000, 95250000)
+DEBUG: board_modifier.py:119: Setting D12 footprint position: (43180000, 99250000)
+DEBUG: board_modifier.py:132: Getting SW13 footprint position: (57150000, 95250000)
+DEBUG: board_modifier.py:119: Setting D13 footprint position: (62230000, 99250000)
+DEBUG: board_modifier.py:132: Getting SW14 footprint position: (76200000, 95250000)
+DEBUG: board_modifier.py:119: Setting D17 footprint position: (81280000, 99250000)
+DEBUG: board_modifier.py:132: Getting SW15 footprint position: (95250000, 104775000)
+DEBUG: board_modifier.py:119: Setting D16 footprint position: (100330000, 108775000)
+DEBUG: board_modifier.py:132: Getting SW16 footprint position: (47625000, 114300000)
+DEBUG: board_modifier.py:119: Setting D14 footprint position: (52705000, 118300000)
+DEBUG: board_modifier.py:132: Getting SW17 footprint position: (76200000, 114300000)
+DEBUG: board_modifier.py:119: Setting D15 footprint position: (81280000, 118300000)
+DEBUG: key_placer.py:928: Placing additional elements for SW15
+DEBUG: board_modifier.py:132: Getting SW15 footprint position: (95250000, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional ST15 footprint in D:\Splitly\Splitly\pad\pad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for SW17
+DEBUG: board_modifier.py:132: Getting SW17 footprint position: (76200000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional ST17 footprint in D:\Splitly\Splitly\pad\pad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for SW16
+DEBUG: board_modifier.py:132: Getting SW16 footprint position: (47625000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional ST16 footprint in D:\Splitly\Splitly\pad\pad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for SW14
+DEBUG: board_modifier.py:132: Getting SW14 footprint position: (76200000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST14 footprint in D:\Splitly\Splitly\pad\pad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for SW13
+DEBUG: board_modifier.py:132: Getting SW13 footprint position: (57150000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST13 footprint in D:\Splitly\Splitly\pad\pad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for SW12
+DEBUG: board_modifier.py:132: Getting SW12 footprint position: (38100000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST12 footprint in D:\Splitly\Splitly\pad\pad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for SW11
+DEBUG: board_modifier.py:132: Getting SW11 footprint position: (76200000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST11 footprint in D:\Splitly\Splitly\pad\pad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for SW8
+DEBUG: board_modifier.py:132: Getting SW8 footprint position: (95250000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional ST8 footprint in D:\Splitly\Splitly\pad\pad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for SW10
+DEBUG: board_modifier.py:132: Getting SW10 footprint position: (57150000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST10 footprint in D:\Splitly\Splitly\pad\pad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for SW9
+DEBUG: board_modifier.py:132: Getting SW9 footprint position: (38100000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST9 footprint in D:\Splitly\Splitly\pad\pad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for SW7
+DEBUG: board_modifier.py:132: Getting SW7 footprint position: (76200000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST7 footprint in D:\Splitly\Splitly\pad\pad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for SW6
+DEBUG: board_modifier.py:132: Getting SW6 footprint position: (57150000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST6 footprint in D:\Splitly\Splitly\pad\pad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for SW5
+DEBUG: board_modifier.py:132: Getting SW5 footprint position: (38100000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST5 footprint in D:\Splitly\Splitly\pad\pad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for SW4
+DEBUG: board_modifier.py:132: Getting SW4 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST4 footprint in D:\Splitly\Splitly\pad\pad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for SW3
+DEBUG: board_modifier.py:132: Getting SW3 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST3 footprint in D:\Splitly\Splitly\pad\pad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for SW2
+DEBUG: board_modifier.py:132: Getting SW2 footprint position: (57150000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST2 footprint in D:\Splitly\Splitly\pad\pad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for SW1
+DEBUG: board_modifier.py:132: Getting SW1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST1 footprint in D:\Splitly\Splitly\pad\pad.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
