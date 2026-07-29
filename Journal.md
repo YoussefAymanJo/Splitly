@@ -1,6 +1,6 @@
 author: Youssef Ayman Mohamed
 
-description: Closed feedback greenhouse system for lettuce and pepper plants in Egypt. Controlled by ESP.
+description: 
  
 created_at: "2026-07-15"
 
@@ -171,7 +171,20 @@ https://lapse.hackclub.com/timelapse/xZpGC4tF1jRX
 created at:2026-7-29
 
 ### Content 
-During this session,i worked on numpad enlosure and redereing.
+During this session,i worked on numpad enlosure and redereing.Firstly,i edited on PCB edges,adding polish it and adding fillset at corners.then update step file.
+After that,i uploaded plate for pcb and edit on it dimensions.increase plat width and length to cover all pcb,then i offset it by 7mm , leaving enough space for moutning holes.then i checked plate switches opening on PCB,and found  after using surface anaylsis,switch openig not alig well with switches.then,i resketch switches opeing and , started adjusting their dimensions and shifting them to left by 1 mm .then increase encoders and oled opening.After that , i made mountinig holes for m3 screws that will connect enclosure.
+then, i mirrored them vertically and horizontally.then i opened rectangle for pico ,avoid intersect  pico with plate.
+<img width="1019" height="652" alt="Screenshot 2026-07-29 214643" src="https://github.com/user-attachments/assets/20e9b3d9-cf2a-4749-bf55-c129a061e4d0" />
+
+After that,I worked on Main enclosure.i extrude outline first based on plate dxf outline,then extrude bottom of enclosure by 2 mm.After that,i cut circle of 5.5mm for bottom mouting with height 3 mm ,in which m3 screws head will be in.then i assembled plate,pcb and enclosure together checking aligment,and measure the needed height for pcb holder.then i extrude 2 circle wit diameter 4.9mm, where heatinsert be in connecting srews and hold pcb ,at specific height.
+After that, i used section analysis to project pico usb openig.then i upload dxf on enclosure and cut it .But,i found its not alig with usb so i moved to by 1.5mm to the left.then i cut the same opeing in plate,then opened slot form back for rgb light.
+<img width="896" height="697" alt="Screenshot 2026-07-29 214609" src="https://github.com/user-attachments/assets/50cc3228-53de-488c-83a7-9d9b5a0991f6" />
+
+After that,i worked on top_Cover,firstly, uploaded dxf of plate layout,then extrude only offset and pico covering rectangle.then,i cutted form the back mouting openig for heatinserts that connects enclosure screws.after that,i extrude covering part for oled part.then i cut rectanel for the middle based on oled display screen.After that,i signed "spilty" project name on top cover,and explode it ,then offset letters by 0.25mm.then extrude them by 0.5 and outer part by 0.25.after that i redered word splitly by white  & red .
+<img width="847" height="557" alt="Screenshot 2026-07-29 214633" src="https://github.com/user-attachments/assets/b9330883-f8c4-4fc1-943f-5ae52e58ecc0" />
+
+Finally,I worked on finishing assembly,adding m3 screws & heatinserts for enclosure and PCB and align them using section analysis.After that,i added keycaps and encoder caps with hackclub letter.finaly,i rendered it with same keyboard colour platte.
+<img width="1053" height="591" alt="Screenshot 2026-07-29 214557" src="https://github.com/user-attachments/assets/8fd5866a-1fe5-4e2a-ba24-3e422dc7fee1" />
 
 ### Recording (2 hour & 38 min) :
 
