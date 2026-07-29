@@ -40,3 +40,30 @@ Finally,i added filled zones on top for Vcc and lower for GND.
 ### Recording (2 hour & 2 min) :
 
 https://lapse.hackclub.com/timelapse/jyOiTPzKX9hP
+
+## Entry 3
+created at:2026-7-16
+
+### Content 
+During this session ,i worked mainly of left part 3d models and assembly.firstly,i uploaded pcb 3d model to fusion,then started project pcb outline , switches ,MCU and oled.after that, i uploaded projected dxf and worked on plate.Firslty,i routed plate outline leaving space between pcb and plate sketch.after that, i offest it and adding filleset on edges.after that,i checked plate aligment with pcb using section analaysis.
+Then,i started adding switches opening based on sketch.then check switches aligment with openig and hanged on its edges.after that,i extruded plate by 3mm,and added moutning holes at edges to,where m3 screws will attached to enclosure.finally,cutting rectangle area in plate for nice nano and display oled.
+<img width="561" height="388" alt="Screenshot 2026-07-29 143937" src="https://github.com/user-attachments/assets/9eb2ee26-80bc-4bd1-ae61-8c8d33dad87a" />
+<img width="559" height="417" alt="Screenshot 2026-07-29 144055" src="https://github.com/user-attachments/assets/324f07d2-feb9-45a3-acee-42f3a1cc2f1d" />
+
+Secondly,i worked on main enclosure.firtly, i extruded it based on plate sketch dxf file,then extrude the bottom layer by 2 mmm, then i checked it height with pcb using section analysis,and adjust its height.after that, i cut 5.5 circle from the bottom mounting holes,where m3 head will be in ,with heigth 3mm.
+After that,i checked heatinsert dimesnions ,and aligment of enlcosure and pcb heigth in it.then extrude circle with diamter of heatinsert.in which srews will be in it and hold pcb at specific heigth, preventing PCB pins attach bottom layer.
+<img width="559" height="412" alt="Screenshot 2026-07-29 143924" src="https://github.com/user-attachments/assets/f3db7c99-acf3-4c4d-bd68-b04e62405028" />
+<img width="1216" height="718" alt="Screenshot 2026-07-29 144237" src="https://github.com/user-attachments/assets/5fa9a4af-d38d-41e8-8de1-a0d5b89ebb61" />
+After that,i assembled all togehter and check aligment.then i started adding keycapd for switches,after that i started adding srews and heat insert and checking aligment by section analsis form top and rigth.then,i sketched nice nano usb opening ,then cut it from plate and enclosure.
+After that,i worked on top cover,extrude it with same plate dxf file.and adding covering rectangle for nicnano.then i started cut form the back mounting holes for heatinsert that connected srews of enclosure.then,i assembled all together ,and adding enclosure srews and heatinsert.
+then,sign my name on top cover and exlode text,also signed arcana name on plate.
+<img width="752" height="408" alt="Screenshot 2026-07-29 144200" src="https://github.com/user-attachments/assets/19724778-6e2c-4df4-8fe5-7f48612aea74" />
+
+Finally,i worked on render it,trying different colours,and choosed black ,white and gold.
+
+<img width="408" height="305" alt="Screenshot 2026-07-29 143900" src="https://github.com/user-attachments/assets/6458e4b4-0e57-4a7a-85e0-7ba67968e4d6" />
+
+### Recording (3 hour & 55 min) :
+
+https://lapse.hackclub.com/timelapse/jyOiTPzKX9hP
+
